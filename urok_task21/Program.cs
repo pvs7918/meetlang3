@@ -23,5 +23,5 @@ Console.Write("x2:");
 double x2 = double.Parse(Console.ReadLine()!);
 Console.Write("y2:");
 double y2 = double.Parse(Console.ReadLine()!);
-
-Console.Write($"Расстояние равно: {FindDist(x1, y1, x2, y2)}");
+// {имя_переменной:f2}   - вывод с 2-я знаками после запятой
+Console.Write($"Расстояние равно: {FindDist(x1, y1, x2, y2):f2}");
